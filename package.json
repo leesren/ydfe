@@ -28,5 +28,9 @@
     "lerna-update-wizard": "^0.17.7"
   },
   "dependencies": {},
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesren/ydfe.git"
+  }
 }

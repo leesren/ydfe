@@ -4,6 +4,5 @@
 	"main": "dist/index.js",
 	"module": "dist/index.esm.js",
 	"license": "MIT",
-	"private": true,
 	"gitHead": "78f4c154fbeb08caf5fd9ff90238eef51efe50a7"
 }
