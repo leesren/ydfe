@@ -2,11 +2,9 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var ydfeDeviceUtil = _interopDefault(require('ydfe-device-util'));
-var ydfeFileUtil = _interopDefault(require('ydfe-file-util'));
-var ydfeToolsUtil = _interopDefault(require('ydfe-tools-util'));
+var ydfeDeviceUtil = require('ydfe-device-util');
+var ydfeFileUtil = require('ydfe-file-util');
+var ydfeToolsUtil = require('ydfe-tools-util');
 
 
 

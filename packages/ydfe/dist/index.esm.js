@@ -1,3 +1,6 @@
-export { default as deviceUtils } from 'ydfe-device-util';
-export { default as fileUtils } from 'ydfe-file-util';
-export { default as toolsUtil } from 'ydfe-tools-util';
+import * as ydfeDeviceUtil from 'ydfe-device-util';
+export { ydfeDeviceUtil as deviceUtils };
+import * as ydfeFileUtil from 'ydfe-file-util';
+export { ydfeFileUtil as fileUtils };
+import * as ydfeToolsUtil from 'ydfe-tools-util';
+export { ydfeToolsUtil as toolsUtil };
