@@ -1,0 +1,8 @@
+{
+	"name": "@ydfe/tools-util",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"license": "MIT",
+	"dependencies": {}
+}
