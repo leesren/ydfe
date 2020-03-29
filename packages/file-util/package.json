@@ -6,5 +6,6 @@
     "license": "MIT",
     "scripts": {
         "build": "father build"
-    }
+    },
+    "gitHead": "6bc2155338f4d28a364267886b13cd4e56ce3710"
 }
