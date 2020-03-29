@@ -1,5 +1,5 @@
 {
-    "name": "@ydfe/file-util",
+    "name": "ydfe-file-util",
     "version": "1.0.5",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -8,5 +8,5 @@
     "scripts": {
         "build": "father build"
     },
-    "gitHead": "78f4c154fbeb08caf5fd9ff90238eef51efe50a7"
+    "gitHead": "aa5361f07bae8873e8155bb7f079c544b0437687"
 }
