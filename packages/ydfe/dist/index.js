@@ -1,13 +1,15 @@
 'use strict';
 
-var deviceUtils = require('ydfe-device-util');
-var fileUtils = require('ydfe-file-util');
-var toolsUtil = require('ydfe-tools-util');
+Object.defineProperty(exports, '__esModule', { value: true });
 
-var index = {
-  deviceUtils: deviceUtils,
-  fileUtils: fileUtils,
-  toolsUtil: toolsUtil
-};
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-module.exports = index;
+var ydfeDeviceUtil = _interopDefault(require('ydfe-device-util'));
+var ydfeFileUtil = _interopDefault(require('ydfe-file-util'));
+var ydfeToolsUtil = _interopDefault(require('ydfe-tools-util'));
+
+
+
+exports.deviceUtils = ydfeDeviceUtil;
+exports.fileUtils = ydfeFileUtil;
+exports.toolsUtil = ydfeToolsUtil;
