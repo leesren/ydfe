@@ -1,6 +1,6 @@
 {
 	"name": "ydfe",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"main": "dist/index.js",
 	"module": "dist/index.esm.js",
 	"typings": "dist/index.d.ts",
@@ -8,8 +8,8 @@
 	"private": false,
 	"gitHead": "aa5361f07bae8873e8155bb7f079c544b0437687",
 	"dependencies": {
-		"ydfe-device-util": "^1.0.6-alpha.0",
-		"ydfe-file-util": "^1.0.6",
-		"ydfe-tools-util": "^1.0.6"
+		"ydfe-device-util": "^1.0.6",
+		"ydfe-file-util": "^1.0.7",
+		"ydfe-tools-util": "^1.0.7"
 	}
 }
