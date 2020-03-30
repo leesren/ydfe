@@ -36,3 +36,29 @@ lerna exec father build --scope ydfe
 npm login
 lerna publish
 ```
+
+## vscode Debug TypeScript
+
+- 新建 `.vscode/launch.json` 文件, 添加配置
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Current TS File",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${workspaceFolder}/packages/time-util/src/utils.ts", "NODE_ENV='development'"],
+      "outFiles": ["./dist"]
+    }
+  ]
+}
+```
+
+- 修改 `args` 的路径，debug 你想要的文件
+
+- 然后， `f5` 调试
