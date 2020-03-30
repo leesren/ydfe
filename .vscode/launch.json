@@ -26,6 +26,16 @@
       "windows": {
         "program": "${workspaceFolder}/node_modules/jest/bin/jest"
       }
+    },
+    {
+      "name": "Current TS File",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${workspaceFolder}/packages/time-util/src/utils.ts", "NODE_ENV='development'"],
+      "outFiles": ["./dist"]
     }
   ]
 }

@@ -2,10 +2,7 @@
   "packages": [
     "packages/*"
   ],
-  "command": {
-    "bootstrap": {
-      "hoist": true
-    }
-  },
+  "command": {},
+  "npmClient": "yarn",
   "version": "independent"
 }

@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es6",
     "lib": ["dom", "esnext"],
     "jsx": "react",
     "moduleResolution": "node",
-    "module": "esnext",
+    "module": "commonjs",
     "allowJs": true,
     "strictNullChecks": true,
     "esModuleInterop": true,
@@ -17,9 +17,9 @@
     "importHelpers": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "baseUrl": "./src",
+    "baseUrl": "./packages",
     "sourceMap": true,
     "strictBindCallApply": true
   },
-  "include": ["./src"]
+  "include": ["./packages"]
 }
