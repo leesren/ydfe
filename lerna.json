@@ -2,6 +2,7 @@
   "packages": [
     "packages/*"
   ],
+  "tagVersionPrefix": "ydfe_",
   "command": {},
   "npmClient": "yarn",
   "version": "independent"

@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "debug": "umi-test",
     "test": "father test",
     "coverage": "father test --coverage",
     "build": "father build",
@@ -12,7 +11,7 @@
     "doc:build": "father doc build",
     "doc:deploy": "father doc deploy",
     "bootstrap": "lerna bootstrap",
-    "changelog": "lerna-changelog",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "clean": "lerna clean -y",
     "publish": "npm run build && lerna publish"
   },
@@ -24,6 +23,7 @@
     "@types/mocha": "^7.0.2",
     "@types/react": "^16.9.26",
     "@types/react-dom": "^16.9.5",
+    "conventional-changelog-cli": "^2.0.31",
     "father": "^2.29.2",
     "husky": "^4.2.3",
     "lerna": "^3.20.2",
@@ -35,5 +35,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leesren/ydfe.git"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
