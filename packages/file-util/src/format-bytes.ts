@@ -1,3 +1,9 @@
+/**
+ * 字节数转换成，其他单位比如 'Bytes', 'KB', 'MB', 'GB'
+ * 
+ * @param bytes 字节数
+ * @param decimals 保留小数位， 默认2位小数
+ */
 export const formatBytes = (bytes, decimals = 2) => {
     if (bytes === 0) {
         return '0 Bytes'

@@ -1,0 +1,24 @@
+{
+	"name": "ydfe-request-vue",
+	"version": "1.0.0",
+	"description": "request library for vue",
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"typings": "dist/index.d.ts",
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"axios",
+		"request",
+		"xhr",
+		"vue"
+	],
+	"dependencies": {
+		"axios": "^0.19.2",
+		"qs": "^6.9.3",
+		"vue": "^2.6.11"
+	},
+	"peerDependencies": {
+		"vue": "^2.6.11"
+	}
+}

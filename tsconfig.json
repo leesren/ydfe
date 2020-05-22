@@ -21,5 +21,23 @@
     "sourceMap": true,
     "strictBindCallApply": true
   },
-  "include": ["./packages"]
+  "include": ["./packages"],
+  "typedocOptions": {
+    "name": "ydfe 工具库文档",
+    "mode": "library",
+    "out": "./docs",
+    "includeVersion": true,
+    "readme": true,
+    "theme": "minimal",
+    "inputFiles": ["packages"],
+    "exclude": [
+      "packages/**/dist",
+      "packages/**/coverage",
+      "packages/**/node_modules",
+      "packages/**/__test__",
+      "packages/**/test",
+      "packages/**/*+(.spec|.e2e|.test).ts",
+      "packages/**/.fatherrc.js"
+    ]
+  }
 }
